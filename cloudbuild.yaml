@@ -7,13 +7,10 @@ steps:
              '-t', 'us-central1-docker.pkg.dev/training-2024-batch/python-repo/my-app:${SHORT_SHA}',
              '-t', 'us-central1-docker.pkg.dev/training-2024-batch/python-repo/my-app:latest',
              '.'
-            #'-t',
-            #'us-central1-docker.pkg.dev/training-2024-batch/python-repo/my-app:${SHORT_SHA}',
-           # '.',
+           
             #'us-central1-docker.pkg.dev/pub-demo-cb-ar/python-repo/my-app:latest',
            # '--cache-from',
-          #  'us-central1-docker.pkg.dev/pub-demo-cb-ar/python-repo/my-app:latest',
-           # '.'
+    
           ]
 
   # Docker push to Google Artifact Registry
